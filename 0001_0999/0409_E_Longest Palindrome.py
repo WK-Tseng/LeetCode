@@ -1,8 +1,10 @@
 class Solution:
     def longestPalindrome(self, s: str) -> int:
-        charDict = {}
-        for c in s:
-            charDict[c] = charDict.get(c, 0) + 1
+        # charDict = {}
+        # for c in s:
+        #     charDict[c] = charDict.get(c, 0) + 1
+
+        charDict = Counter(s)
 
         result = 0
         oddFlag = True
