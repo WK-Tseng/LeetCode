@@ -43,4 +43,4 @@ class Solution:
 
                 ans[y][x] = right_bottom - right_top - left_bottom + left_top
 
-        return ans
+        return ans 

@@ -24,7 +24,7 @@ class NumMatrix:
         x_sub = col1 - 1
 
         y_add = row2
-        x_add = col2
+        x_add = col2 
 
         left_top = 0
         if y_sub >= 0 and x_sub >= 0:
